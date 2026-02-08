@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Style Landing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <div class="nav">
+            <h1>SEKIBIDI</h1>
+        </div>
+    </header>
+
+    <main class="main fade-up">
+
+        <section class="hero">
+            <h2>Barang bukti dan laporan</h2>
+        </section>
+
+
+
+        <section class="image-section">
+
+            <div class="card">
+                <img src="image1.jpeg" alt="gambar1" onclick="openViewer(this)">
+                <p class="desc">Deskripsi Gambar 1</p>
+            </div>
+
+            <div class="card">
+                <img src="image2.jpeg" alt="gambar2" onclick="openViewer(this)">
+                <p class="desc">Deskripsi Gambar 2</p>
+            </div>
+
+        </section>
+
+
+        <section class="video-section">
+            <div class="card">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <p class="desc">
+                    Tanggal xx xx xxx mereka datang
+                </p>
+            </div>
+
+            <div class="card">
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+                <p class="desc">
+                    Tanggal xx xx xxx mereka datang
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Email: email kami private</p>
+        <p>Telepon: 0812-3456-7890</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <div id="imageViewer" class="viewer" onclick="closeViewer()">
+
+        <span class="close-btn">&times;</span>
+
+        <img id="viewerImg" src="">
+
+        <a id="downloadBtn" download>
+            Download
+        </a>
+
+    </div>
+
+</body>
+</html>
