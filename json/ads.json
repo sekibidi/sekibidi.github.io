@@ -1,0 +1,21 @@
+{
+  "Ads": [
+    {
+      "select_backup_ads":"null",
+      "initialize_sdk_backup_ads":"xxxxx",
+
+      "main_ads_banner":"ca-app-pub-3940256099942544/6300978111",
+      "main_ads_intertitial":"ca-app-pub-3940256099942544/1033173712",
+      "main_ads_natives":"ca-app-pub-3940256099942544/2247696110",
+      "open_ads_admob":"ca-app-pub-3940256099942544/3419835294",
+      "main_ads_rewards":"ca-app-pub-3940256099942544/5224354917",
+
+      "backup_ads_natives":"xxxxx",
+      "backup_ads_banner":"xxxxx",
+      "backup_ads_intertitial":"xxxxx",
+
+      "status_app": "0",
+      "link_redirect": "https://"
+    }
+  ]
+}
